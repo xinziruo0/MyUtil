@@ -12,7 +12,6 @@ import java.util.List;
  */  
 public class DFA {  
  
-      
     /** 
      * 根节点 
      */  

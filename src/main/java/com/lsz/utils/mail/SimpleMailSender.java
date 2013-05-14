@@ -1,4 +1,4 @@
-package org.lsz.utils.mail;   
+package com.lsz.utils.mail;   
   
 import java.util.Date;    
 import java.util.Properties;   
