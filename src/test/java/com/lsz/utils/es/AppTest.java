@@ -1,4 +1,4 @@
-package com.lsz.util;
+package com.lsz.utils.es;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
