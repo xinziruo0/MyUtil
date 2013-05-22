@@ -1,6 +1,6 @@
 package com.lsz.utils.charset;
 import java.io.UnsupportedEncodingException;
-
+//1234
 /**
 * <p>Title:字符编码工具类 </p>
 * <p>Description:  </p>
