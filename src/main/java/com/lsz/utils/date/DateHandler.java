@@ -1,13 +1,6 @@
 package com.lsz.utils.date;
 
-/**
- * <p>Title: </p>
- * <p>Description: </p>
- * <p>Copyright: Copyright (c) 2007</p>
- * <p>Company: </p>
- * @author <a href="mailto:royiwu@hotmail.com">advance.wu</a>
- * @version 1.0
- */
+
 import java.util.*;
 import java.text.*;
 

@@ -1,13 +1,6 @@
 package com.lsz.utils.date;
 
-/**
- * <p>Title: 时间和日期的工具类</p>
- * <p>Description: DateUtil类包含了标准的时间和日期格式，以及这些格式在字符串及日期之间转换的方法</p>
- * <p>Copyright: Copyright (c) 2007 advance,Inc. All Rights Reserved</p>
- * <p>Company: advance,Inc.</p>
- * @author advance
- * @version 1.0
- */
+
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
