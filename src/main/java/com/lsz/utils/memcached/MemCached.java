@@ -44,10 +44,7 @@ public class MemCached
         // 压缩设置，超过指定大小（单位为K）的数据都会被压缩
         mcc.setCompressEnable( true );
         mcc.setCompressThreshold( 64 * 1024 );
-        
-        
     }
-    
     /**
      * 保护型构造方法，不允许实例化！
      *
@@ -55,7 +52,6 @@ public class MemCached
     protected MemCached()
     { 
     }
-    
     /**
      * 获取唯一实例.
      * @return
@@ -64,7 +60,6 @@ public class MemCached
     {
         return memCached;
     }
-    
     /**
      * 添加一个指定的值到缓存中.
      * @param key
@@ -80,27 +75,22 @@ public class MemCached
     {
         return mcc.add(key, value, expiry);
     }
-    
     public boolean replace(String key, Object value)
     {
         return mcc.replace(key, value);
     }
-    
     public boolean replace(String key, Object value, Date expiry)
     {
         return mcc.replace(key, value, expiry);
     }
-    
     public boolean set(String key, Object value)
     {
         return mcc.set(key, value);
     }
-    
     public boolean set(String key, Object value, Date expiry)
     {
         return mcc.set(key, value, expiry);
     }
-    
     /**
      * 根据指定的关键字获取对象.
      * @param key

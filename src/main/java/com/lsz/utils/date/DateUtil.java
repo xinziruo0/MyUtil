@@ -16,9 +16,7 @@ public class DateUtil {
 	private static String datePattern = "MM/dd/yyyy";
 
 	private static String timePattern = datePattern + " HH:MM a";
-
 	//~ Methods ================================================================
-
 	/**
 	 * Return default datePattern (MM/dd/yyyy)
 	 * @return a string representing the date pattern on the UI
@@ -26,7 +24,6 @@ public class DateUtil {
 	public static String getDatePattern() {
 		return datePattern;
 	}
-
 	/**
 	 * This method attempts to convert an Oracle-formatted date
 	 * in the form dd-MMM-yyyy to mm/dd/yyyy.

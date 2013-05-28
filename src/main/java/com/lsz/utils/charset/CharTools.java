@@ -1,5 +1,7 @@
 package com.lsz.utils.charset;
 import java.io.UnsupportedEncodingException;
+
+import org.apache.log4j.chainsaw.Main;
 //1234455
 /**
 * <p>Title:字符编码工具类 </p>
@@ -71,10 +73,8 @@ public class CharTools {
 
       }
     }
-
     return result.toString();
   }
-
   /**
    * Utf8URL解码
    * @param text
@@ -126,7 +126,6 @@ public class CharTools {
     else {
       result = text;
     }
-
     return result;
   }
 
@@ -149,7 +148,7 @@ public class CharTools {
 
   /**
    * 判断是否Utf8Url编码
-   * @param text
+   * @param text	
    * @return
    */
   public static final boolean isUtf8Url(String text) {
@@ -159,6 +158,4 @@ public class CharTools {
       text = text.substring(p, p + 9);
     }
     return Utf8codeCheck(text);
-  }
-
-}
+  } }
